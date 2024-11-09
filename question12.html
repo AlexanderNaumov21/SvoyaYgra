@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АУКЦИОН</title>
+    <style>
+        /* Задний фон для страницы */
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('img/aukfon.png'); /* Путь к фоновому изображению */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 100vh;
+        }
+
+        /* Картинка-ссылка в левом верхнем углу */
+        .clickable-image {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 350px; /* Ширина картинки */
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Картинка, ведущая на другую страницу -->
+    <a href="auk1.html">
+        <img src="img/voprnadpis.png" alt="Картинка-ссылка" class="clickable-image">
+    </a>
+</body>
+</html>
+
+

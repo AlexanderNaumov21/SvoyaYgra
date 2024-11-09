@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c3c;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+th {
+    background-color: #00008B;
+    color: #fff;
+    font-weight: bold;
+    width: 20%;
+}
+
+td {
+    background-color: #00008B;
+}
+
+.question-btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00008B;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-btn:hover {
+    background-color: #fff;
+}
+
+.question-btn:visited {
+    color: #fff;
+    background-color: #FF8C00;
+}
+.question-btn:active {
+    color: #FF8C00; /* Изменение цвета текста на синий при нажатии */
+    background-color: #ffffff; /* Контрастный фон */
+}
+
+

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('img/zastavka.jpg'); /* Укажите путь к картине-фону */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Тёмный полупрозрачный фон поверх картинки */
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.title {
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: auto;
+    margin-top: 20px;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 30px 80px; /* Ещё больше увеличенные отступы */
+    font-size: 2.5em; /* Крупный размер шрифта */
+    color: #F0E68C;
+    background-color: #FF8C00;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); /* Усиленная тень для объёма */
+}
+
+.start-btn:hover {
+    background-color: #191970;
+    transform: scale(1.1); /* Сильный эффект увеличения при наведении */
+}
+
+
+
